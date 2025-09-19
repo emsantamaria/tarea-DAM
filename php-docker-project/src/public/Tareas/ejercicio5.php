@@ -1,0 +1,10 @@
+<?php
+
+ function numeros(): void{
+    for ($i=1; $i < 101; $i++) { 
+        echo $i . "\n";
+    }
+ }
+
+ numeros();
+?>
